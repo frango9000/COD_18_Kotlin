@@ -31,5 +31,11 @@ public class Entrenador extends Seleccion {
     public void dirigirEntrenamiento(){
         
     }
+
+    @Override
+    public String toString() {
+        
+        return "Id: "+super.getId()+"\nNombre: "+super.getNombre()+"\nApellido: "+super.getApellido()+"\nEdad: "+super.getEdad() + "\nidFederacion: " + idFederacion;
+    }
     
 }

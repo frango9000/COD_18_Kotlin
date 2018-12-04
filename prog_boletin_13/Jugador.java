@@ -41,4 +41,10 @@ public class Jugador extends Seleccion{
     public void entrenar(){
         
     }
+
+    @Override
+    public String toString() {
+        return "Id: "+super.getId()+"\nNombre: "+super.getNombre()+"\nApellido: "+super.getApellido()+"\nEdad: "+super.getEdad() + "\n Dorsal: " + dorsal + "\nDemarcacion: " + demarcacion;
+    }
+    
 }

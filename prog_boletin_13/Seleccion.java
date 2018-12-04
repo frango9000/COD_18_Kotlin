@@ -66,4 +66,10 @@ public class Seleccion {
     public void viajar() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Id: "+id+"\nNombre: "+nombre+"\nApellido: "+apellido+"\nEdad: "+edad; //To change body of generated methods, choose Tools | Templates.
+    }
+    
 }

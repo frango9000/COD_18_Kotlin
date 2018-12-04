@@ -38,4 +38,10 @@ public class Masajista extends Seleccion{
     public void darMasaje(){
         
     }
+
+    @Override
+    public String toString() {
+        return "Id: "+super.getId()+"\nNombre: "+super.getNombre()+"\nApellido: "+super.getApellido()+"\nEdad: "+super.getEdad() + "Titulacion: " + titulacion + "\nanhosExperiencia: " + anhosExperiencia;
+    }
+    
 }
