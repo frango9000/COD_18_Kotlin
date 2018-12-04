@@ -37,5 +37,9 @@ public class Entrenador extends Seleccion {
         
         return "Id: "+super.getId()+"\nNombre: "+super.getNombre()+"\nApellido: "+super.getApellido()+"\nEdad: "+super.getEdad() + "\nidFederacion: " + idFederacion;
     }
+    @Override
+    public void viajar() {
+        System.out.println("viajan los entrenadores"); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

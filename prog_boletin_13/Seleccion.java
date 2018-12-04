@@ -65,7 +65,7 @@ public class Seleccion {
     }
 
     public void viajar() {
-
+        System.out.println("viaxa a selección");
     }
 
     @Override

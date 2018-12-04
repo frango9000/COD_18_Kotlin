@@ -46,5 +46,9 @@ public class Jugador extends Seleccion{
     public String toString() {
         return "Id: "+super.getId()+"\nNombre: "+super.getNombre()+"\nApellido: "+super.getApellido()+"\nEdad: "+super.getEdad() + "\n Dorsal: " + dorsal + "\nDemarcacion: " + demarcacion;
     }
+    @Override
+    public void viajar() {
+        System.out.println("viajan los jugadores"); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

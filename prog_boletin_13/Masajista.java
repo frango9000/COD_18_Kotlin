@@ -43,5 +43,10 @@ public class Masajista extends Seleccion{
     public String toString() {
         return "Id: "+super.getId()+"\nNombre: "+super.getNombre()+"\nApellido: "+super.getApellido()+"\nEdad: "+super.getEdad() + "Titulacion: " + titulacion + "\nanhosExperiencia: " + anhosExperiencia;
     }
+
+    @Override
+    public void viajar() {
+        System.out.println("viajan los masajistas"); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
