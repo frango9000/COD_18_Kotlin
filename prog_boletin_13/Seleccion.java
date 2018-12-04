@@ -60,6 +60,7 @@ public class Seleccion {
     
 
     public void concentrarse() {
+        System.out.println(" concentrase a selección ");
 
     }
 
